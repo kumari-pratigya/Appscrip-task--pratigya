@@ -21,7 +21,7 @@ const Footer = () => {
           <p className={style.phoneNo}>+44 221 133 5360</p>
           <p className={style.email}>customercare@mettamuse.com</p>
           <p className={style.currency}>Currency</p>
-          <Image src={Images.USD}></Image>{" "}
+          <Image alt="usd" src={Images.USD}></Image>{" "}
           <span className={style.usd}>USD</span>
           <p className={style.transaction}>
             {" "}
@@ -59,18 +59,18 @@ const Footer = () => {
         <div className="col-md-4 col-12">
           <p className={style.bottomHeading}>FOLLOW US</p>
           <div className={`d-flex`}>
-            <Image src={Images.INSTA} />
-            <Image className="mx-2" src={Images.LINKEDIN} />
+            <Image alt="insta" src={Images.INSTA} />
+            <Image alt="linkedin" className="mx-2" src={Images.LINKEDIN} />
           </div>
           
           <p className="mt-sm-5 mt-3 ">mettā muse Accepts</p>
           <div className={`d-flex`}>
-            <Image src={Images.GPAY} />
-            <Image className="mx-2" src={Images.CARD} />
-            <Image className="mx-2" src={Images.PAYU} />
-            <Image className="mx-2" src={Images.AMEX} />
-            <Image className="mx-2" src={Images.APPPAY} />
-            <Image className="mx-2" src={Images.GROUP} />
+            <Image alt="gpay" src={Images.GPAY} />
+            <Image alt="card" className="mx-2" src={Images.CARD} />
+            <Image alt="payu" className="mx-2" src={Images.PAYU} />
+            <Image alt="amex" className="mx-2" src={Images.AMEX} />
+            <Image alt="apppay" className="mx-2" src={Images.APPPAY} />
+            <Image alt="group" className="mx-2" src={Images.GROUP} />
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@ const Footer = () => {
         </div>
         <div className={`col-md-4 col-12 ${style.column}`}>
           <p className={`mt-3 ${style.currency}`}>Currency</p>
-          <Image src={Images.USD}></Image>{" "}
+          <Image alt="usd" src={Images.USD}></Image>{" "}
           <span className={style.usd}>USD</span>
         </div>
       
@@ -152,8 +152,8 @@ const Footer = () => {
    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
      <div class="accordion-body">
      <div className={`d-flex`}>
-           <Image src={Images.INSTA} />
-           <Image className="mx-2" src={Images.LINKEDIN} />
+           <Image alt="insta" src={Images.INSTA} />
+           <Image alt="linkedin" className="mx-2" src={Images.LINKEDIN} />
          </div>
      </div>
    </div>
@@ -166,12 +166,12 @@ const Footer = () => {
       <p className="mt-sm-5 mt-3 d-block d-md-none text-start">mettā muse Accepts</p>
       <div className={` d-block d-md-none`}>
 <div className="row">
-  <div className="col-2"> <Image src={Images.GPAY} /></div>
-  <div className="col-2">  <Image className="mx-2" src={Images.CARD} /></div>
-  <div className="col-2">  <Image className="mx-2" src={Images.PAYU} /></div>
-  <div className="col-2"> <Image src={Images.AMEX} /></div>
-  <div className="col-2"> <Image className="mx-2" src={Images.APPPAY} /></div>
-  <div className="col-2">  <Image className="mx-2" src={Images.GROUP} /></div>
+  <div className="col-2"> <Image alt="gpay" src={Images.GPAY} /></div>
+  <div className="col-2">  <Image alt="card" className="mx-2" src={Images.CARD} /></div>
+  <div className="col-2">  <Image alt="payu" className="mx-2" src={Images.PAYU} /></div>
+  <div className="col-2"> <Image alt="amex" src={Images.AMEX} /></div>
+  <div className="col-2"> <Image alt="apppay" className="mx-2" src={Images.APPPAY} /></div>
+  <div className="col-2">  <Image alt="group" className="mx-2" src={Images.GROUP} /></div>
 
 </div>
            

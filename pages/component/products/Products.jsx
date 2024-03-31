@@ -86,7 +86,7 @@ const Products = () => {
             <> 
             <div className='col-xl-4  col-xxl-3 col-sm-6 my-3'>
             <div className='position-relative '>
-            <Image  className={item.productImage? `opacity-50 ${style.productImage}`: `opacity-100 ${style.productImage}`} src={item.pic}/>
+            <Image alt="productImg" className={item.productImage? `opacity-50 ${style.productImage}`: `opacity-100 ${style.productImage}`} src={item.pic}/>
             {item.detail && <p className={`${style.detail}`}>{item.detail}</p>}
             {item.stock=='Out of Stock' && <p className={`${style.stock}`}>{item.stock}</p>}
             </div>
@@ -97,7 +97,7 @@ const Products = () => {
 <p className={` mb-0 text-break ${style.subHeading}`}>Sign in or Create an account to see pricing</p>
                 </div>
                 <div className='col-2 text-right'>
-                    <Image  src={Images.HEART}/>
+                    <Image alt="heart" src={Images.HEART}/>
                     </div>
             </div>
           

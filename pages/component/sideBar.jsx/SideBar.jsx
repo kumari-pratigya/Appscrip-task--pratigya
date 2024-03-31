@@ -39,7 +39,7 @@ const SideBar = () => {
       <div className=" sideBar accordion" id="accordionExample">
       {productDetails.length !== 0 &&
                 productDetails.map((item, i) => (
-                    <div className="accordion-item">
+                    <div key={i} className="accordion-item">
           <h2 className="accordion-header">
             <button
               className="accordion-button collapsed "

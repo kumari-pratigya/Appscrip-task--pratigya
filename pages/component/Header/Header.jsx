@@ -18,28 +18,28 @@ const Header = () => {
             </div>
             <div className="row mx-5 my-2 d-flex align-items-center justify-content-center">
               <div className="col-md-3">
-                <a class="navbar-brand" href="/">
+                <Link class="navbar-brand" href="/">
                   <Image alt="Logo" src={Images.LOGO}></Image>
-                </a>
+                </Link>
               </div>
               <div className="col-md-6 text-center">
                 <span className={style.logo}>Logo</span>
               </div>
               <div className="col-md-3">
                 <Link className="px-2" href="/">
-                  <Image src={Images.SEARCH}/>
+                  <Image alt="searchImg" src={Images.SEARCH}/>
                 </Link>
                 <Link className="px-2" href="/">
-                  <Image src={Images.HEART}/>
+                  <Image alt="heartImg" src={Images.HEART}/>
                 </Link>
                 <Link className="px-2" href="/">
-                  <Image src={Images.SHOPPINGBAG}/>
+                  <Image alt="bagImg" src={Images.SHOPPINGBAG}/>
                 </Link>
                 <Link className="px-2" href="/">
-                  <Image src={Images.PROFILE}/>
+                  <Image  alt="profile" src={Images.PROFILE}/>
                 </Link>
                 <Link className="px-2" href="/">
-                  <Image src={Images.LANGUAGE}/>
+                  <Image alt="language" src={Images.LANGUAGE}/>
                 </Link>
               </div>
             </div>
@@ -83,9 +83,9 @@ const Header = () => {
               >
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <a className="navbar-brand mx-3" href="/">
+              <Link className="navbar-brand mx-3" href="/">
                 <Image alt="Logo" src={Images.LOGO}/>
-              </a>
+              </Link>
             </div>
 
             <div className="col-4 px-0 text-center">
@@ -93,13 +93,13 @@ const Header = () => {
             </div>
             <div className="col-4 px-0 text-end">
               <Link className="px-2" href="/">
-                <Image src={Images.SEARCH}/>
+                <Image alt="search" src={Images.SEARCH}/>
               </Link>
               <Link className="px-2" href="/">
-                <Image src={Images.HEART}/>
+                <Image alt="heart" src={Images.HEART}/>
               </Link>
               <Link className="px-2" href="/">
-                <Image src={Images.SHOPPINGBAG}/>
+                <Image alt="bag" src={Images.SHOPPINGBAG}/>
               </Link>
             </div>
           </div>
