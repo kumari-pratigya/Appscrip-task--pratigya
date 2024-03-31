@@ -5,7 +5,7 @@ import Link from "next/link";
 import Description from "./component/description/Description";
 import ProductBar from "./component/productBar/ProductBar";
 import Script from "next/script";
-import ProductContainer from "./component/productContainer/ProductContainer";
+import ProductContainer from "./component/productContainer/ProductCOntainer";
 
 export default function Home() {
   return (

@@ -151,9 +151,9 @@ const Footer = () => {
    </h2>
    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
      <div class="accordion-body">
-     <div className={`d-flex`}>
-           <Image alt="insta" src={Images.INSTA} />
-           <Image alt="linkedin" className="mx-2" src={Images.LINKEDIN} />
+     <div className={`d-flex flex-wrap`}>
+           <Image alt="insta" className='img-fluid overflow-hidden' src={Images.INSTA} />
+           <Image alt="linkedin"  className=' mx-2 img-fluid overflow-hidden'  src={Images.LINKEDIN} />
          </div>
      </div>
    </div>
