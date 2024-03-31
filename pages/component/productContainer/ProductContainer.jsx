@@ -1,6 +1,6 @@
 import React from 'react'
 import Products from '../products/Products'
-import SideBar from '../sideBar/SIdeBar'
+import SideBar from '../sideBar/SideBar'
 const ProductContainer = () => {
   return (
     <div className='row gx-0 mx-0 mx-sm-5'>
