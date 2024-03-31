@@ -1,6 +1,5 @@
 const Images = {
     USD: require('./United States of America (US).png'),
-    FRONTPIC:require('./FrontPic.png'),
     LOGO:require('./logo.png'),
     PROFILE:require('./profile.png'),
     SHOPPINGBAG:require('./shopping-bag.png'),
@@ -14,7 +13,20 @@ const Images = {
    APPPAY:require('./appPay.png'),
    PAYU:require('./Group136192.png'),
   AMEX:require('./amex.png'),
-  GROUP:require('./Group136195.png')
-  
+  GROUP:require('./Group136195.png'),
+  BAG:require('./bag.png'),
+  BAG2:require('./bag2.png'),
+  BAG3:require('./bag3.png'),
+  BAG4:require('./bag4.png'),
+  CLOTHES:require('./clothes.png'),
+    TOY:require('./toy.png'),
+    BELT:require('./belt.png'),
+    HANDBAG:require('./purse.png'),
+    SLINGBAG1:require('./slingbag.png'),
+    SLINGBAG3:require('./slingbag3.png'),
+    SLINGBAG2:require('./slingbag2.png'),
+    RIGHTARROW:require('./rightArrow.png'),
+    BOTTOMARROW:require('./bottomArrow.png')
+
   };
   export default Images;

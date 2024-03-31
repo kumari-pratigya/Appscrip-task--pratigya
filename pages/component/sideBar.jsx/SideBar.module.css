@@ -1,0 +1,12 @@
+.heading{
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 21.6px !important;
+    font-family: var(--roboto) !important;
+}
+.subHeading{
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 21.6px !important;
+    font-family: var(--roboto) !important;
+}

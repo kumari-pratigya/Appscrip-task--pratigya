@@ -6,76 +6,76 @@ const products=[
     {
     id:1,
     title:"PPXOC Milkyway dress in pressed flowers",
-    pic:Images.FRONTPIC,
+    pic:Images.BAG,
     detail:'New Item',
     price:""
 },
 {
     id:2,
     title:"PPXOC Milkyway dress in pressed flowers",
-    pic:Images.FRONTPIC,
+    pic:Images.TOY,
     stock:"Out of Stock",
     price:""
 },
 {
     id:3,
     title:"PPXOC Milkyway dress in pressed flowers",
-    pic:Images.FRONTPIC,
+    pic:Images.BELT,
     price:""
 },
 {
     id:4,
     title:"PPXOC Milkyway dress in pressed flowers",
-    pic:Images.FRONTPIC,
+    pic:Images.CLOTHES,
     price:""
 },
 {
     id:5,
     title:"PPXOC Milkyway dress in pressed flowers",
-    pic:Images.FRONTPIC,
+    pic:Images.BAG2,
     price:""
 },
 {
     id:6,
     title:"PPXOC Milkyway dress in pressed flowers",
-    pic:Images.FRONTPIC,
+    pic:Images.TOY,
     price:""
 },
 {
     id:7,
     title:"PPXOC Milkyway dress in pressed flowers",
-    pic:Images.FRONTPIC,
+    pic:Images.HANDBAG,
     price:""
 },
 {
     id:8,
     title:"PPXOC Milkyway dress in pressed flowers",
-    pic:Images.FRONTPIC,
+    pic:Images.BAG3,
     price:""
 },
 {
     id:9,
     title:"PPXOC Milkyway dress in pressed flowers",
-    pic:Images.FRONTPIC,
+    pic:Images.BAG4,
     price:""
 },
 {
     id:10,
     title:"PPXOC Milkyway dress in pressed flowers",
-    pic:Images.FRONTPIC,
+    pic:Images.SLINGBAG1,
     price:""
 },
 {
     id:11,
     title:"PPXOC Milkyway dress in pressed flowers",
-    pic:Images.FRONTPIC,
+    pic:Images.SLINGBAG2,
 
     price:""
 },
 {
     id:12,
     title:"PPXOC Milkyway dress in pressed flowers",
-    pic:Images.FRONTPIC,
+    pic:Images.SLINGBAG3,
     price:""
 },
 ]
@@ -86,7 +86,7 @@ const Products = () => {
             <> 
             <div className='col-xl-4  col-xxl-3 col-sm-6 my-3'>
             <div className='position-relative '>
-            <Image alt="productImg" className={item.productImage? `opacity-50 ${style.productImage}`: `opacity-100 ${style.productImage}`} src={item.pic}/>
+            <Image alt="productImg" className={item.productImage? `opacity-25 ${style.productImage}`: `opacity-100 ${style.productImage}`} src={item.pic}/>
             {item.detail && <p className={`${style.detail}`}>{item.detail}</p>}
             {item.stock=='Out of Stock' && <p className={`${style.stock}`}>{item.stock}</p>}
             </div>
