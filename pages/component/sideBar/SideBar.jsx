@@ -83,18 +83,17 @@ const SideBar = () => {
                 >
                   <div className="accordion-body">
                   <ul className="list-unstyled">
-
                     {category.length !== 0 &&
-                      category.map((item, j) => (
+                      category.map((item, j) => {
                         
-                          <li  key={j}>  <input type="checkbox"/>{item.title}</li>
+                          <li  key={j}>  <input type="checkbox"/> {item.title}</li>
 
                         
                       
                         
                       
 
-                      ))}
+                    })}
                       </ul>
                   </div>
                 </div>
