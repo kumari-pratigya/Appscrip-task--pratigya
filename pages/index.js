@@ -1,12 +1,11 @@
 import Head from "next/head";
-// import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Script from "next/script";
 
-// import Description from "./component/description/Description";
-// import ProductBar from "./component/productBar/ProductBar";
-// import ProductContainer from "./component/productContainer/ProductCOntainer";
+import Description from '../component/description/Description';
+import ProductBar from "../component/productBar/ProductBar";
+import ProductContainer from "../component/productContainer/ProductCOntainer";
 
 export default function Home() {
   return (
@@ -31,10 +30,9 @@ export default function Home() {
         crossorigin="anonymous"
         defer
       />
-
-    {/* <Description/>
+    <Description/>
     <ProductBar/>
-    <ProductContainer/> */}
+    <ProductContainer/>
     
     </div>
   );

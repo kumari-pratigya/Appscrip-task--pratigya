@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import style from './Product.module.css'
-import Images from '../../../public/Images/Images'
+import Images from '../../public/Images/Images'
 const ProductBar = () => {
   return (
     <>
