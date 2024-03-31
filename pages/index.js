@@ -31,9 +31,9 @@ export default function Home() {
         defer
       />
 
-    <Description/>
+    {/* <Description/>
     <ProductBar/>
-    <ProductContainer/>
+    <ProductContainer/> */}
     
     </div>
   );

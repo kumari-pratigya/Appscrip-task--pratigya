@@ -64,7 +64,7 @@ const Footer = () => {
           </div>
           
           <p className="mt-sm-5 mt-3 ">mettā muse Accepts</p>
-          <div className={`d-flex`}>
+          <div className={`d-flex overflow-hidden`}>
             <Image alt="gpay" src={Images.GPAY} />
             <Image alt="card" className="mx-2" src={Images.CARD} />
             <Image alt="payu" className="mx-2" src={Images.PAYU} />
@@ -151,9 +151,9 @@ const Footer = () => {
    </h2>
    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
      <div class="accordion-body">
-     <div className={`d-flex flex-wrap`}>
-           <Image alt="insta" className='img-fluid overflow-hidden' src={Images.INSTA} />
-           <Image alt="linkedin"  className=' mx-2 img-fluid overflow-hidden'  src={Images.LINKEDIN} />
+     <div className={`d-flex `}>
+           <Image alt="insta" className='img-fluid ' src={Images.INSTA} />
+           <Image alt="linkedin"  className=' mx-2 img-fluid'  src={Images.LINKEDIN} />
          </div>
      </div>
    </div>
@@ -165,7 +165,7 @@ const Footer = () => {
       <div className="col-md-4 col-12 px-0">
       <p className="mt-sm-5 mt-3 d-block d-md-none text-start">mettā muse Accepts</p>
       <div className={` d-block d-md-none`}>
-<div className="row">
+<div className="row ">
   <div className="col-2"> <Image alt="gpay" src={Images.GPAY} /></div>
   <div className="col-2">  <Image alt="card" className="mx-2" src={Images.CARD} /></div>
   <div className="col-2">  <Image alt="payu" className="mx-2" src={Images.PAYU} /></div>
