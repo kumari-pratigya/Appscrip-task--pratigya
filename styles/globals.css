@@ -5,6 +5,32 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+@media (max-width: 725.98px) {
+ .accordion {
+  --bs-accordion-color:white !important;
+  --bs-accordion-bg: transparent;
+  --bs-accordion-border-color:transparent;
+  --bs-accordion-btn-icon: url(https://parspng.com/wp-content/uploads/2021/11/arrowpng.parspng.com-13.png);
+}
+ .accordion-button{
+  color: white;
+}
+ .accordion-button:not(.collapsed) {
+ --bs-accordion-color:white !important;
+  --bs-accordion-bg: transparent;
+}
+ .accordion-item{
+  border-bottom:2px solid white;
+  margin-bottom:15px ;
+  margin-top:15px ;
+}
+}
+.sideBar .accordion {
+  --bs-accordion-color:black !important;
+  --bs-accordion-bg: transparent;
+  --bs-accordion-border-color:transparent;
+}
+
 
 a {
   color: inherit;

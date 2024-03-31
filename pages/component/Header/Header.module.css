@@ -1,0 +1,24 @@
+.headerContainer{
+    height: auto;
+   border-bottom:1px solid #E5E5E5 ;
+    /* width: 100%; */
+}
+.upperRow{ 
+color:#EB4C6B;
+height:32px;
+font-family: var( --roboto);
+font-weight: 400;
+font-size: 12px;
+}
+.logo{
+    font-family:var(--inter) ;
+    font-weight: 800;
+    font-size: 36px;
+}
+.bottomRow{
+    font-weight: 700;
+    font-family: var( --roboto);
+    font-size: 20px;
+
+
+}
