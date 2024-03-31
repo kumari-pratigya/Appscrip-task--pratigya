@@ -1,8 +1,8 @@
 import React from "react";
-import style from "./Header.module.css";
+import style from "../Header/Header.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import Images from "../../../public/Images/Images";
+import Images from "../../public/Images/Images";
 const Header = () => {
   return (
     <>
