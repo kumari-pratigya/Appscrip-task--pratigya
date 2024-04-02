@@ -145,11 +145,11 @@ const Footer = () => {
  </div>
  <div class="accordion-item">
    <h2 class="accordion-header">
-     <p className="accordion-button collapsed"  data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+     <p className="accordion-button "  data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
      FOLLOW US
      </p>
    </h2>
-   <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+   <div id="collapseThree" class="accordion-collapse " data-bs-parent="#accordionExample">
      <div class="accordion-body">
      <div className={`d-flex `}>
            <Image alt="insta" className='img-fluid ' src={Images.INSTA} />

@@ -35,17 +35,7 @@ const SideBar = () => {
       type: "All",
     },
   ];
-  const category = [
-    {
-      title: "Men",
-    },
-    {
-      title: "Women",
-    },
-    {
-      title:'baby&kids'
-    }
-  ];
+ 
   return (
     <>
       <div className="sideBar">
@@ -83,17 +73,11 @@ const SideBar = () => {
                 >
                   <div className="accordion-body">
                   <ul className="list-unstyled">
-                    {category.length !== 0 &&
-                      category.map((item, j) => {
+                  
                         
-                          <li  key={j}>  <input type="checkbox"/> {item.title}</li>
+                          <li >  <input type="checkbox"/> Men</li>
+                          <li >  <input type="checkbox"/> Women</li>
 
-                        
-                      
-                        
-                      
-
-                    })}
                       </ul>
                   </div>
                 </div>
