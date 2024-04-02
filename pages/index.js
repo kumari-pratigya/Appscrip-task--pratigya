@@ -1,13 +1,14 @@
-import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Script from "next/script";
-
 import Description from '../component/description/Description';
 import ProductBar from "../component/productBar/ProductBar";
 import ProductContainer from "../component/productContainer/ProductContainer";
+import Head from 'next/head'
+
 
 export default function Home() {
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -20,10 +21,11 @@ export default function Home() {
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
           crossorigin="anonymous"
         />
-      <Link rel="preconnect" href="https://fonts.googleapis.com"/>
+   
+      </Head>
+         <Link rel="preconnect" href="https://fonts.googleapis.com"/>
 <Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <Link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></Link>
-      </Head>
       <Script 
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -31,8 +33,8 @@ export default function Home() {
         defer
       />
     <Description/>
-    <ProductBar/>
-    <ProductContainer/>
+     <ProductBar/>
+    <ProductContainer/> 
     
     </div>
   );
