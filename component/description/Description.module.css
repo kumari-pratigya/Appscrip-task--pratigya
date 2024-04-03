@@ -1,6 +1,7 @@
 .descriptionContainer {
     width: 721px;
     height: 168px;
+    color: black;
     font-family: var(--roboto);
 }
 
@@ -8,13 +9,10 @@
     font-weight: 400;
     font-size: 58px;
     line-height: 72px;
-    color: var(--black-color);
-
 }
 
 .description {
     font-weight: 400;
-    color: var(--black-color);
     font-size: 22px;
     line-height: 40px;
 }
@@ -22,7 +20,6 @@
 @media (max-width: 725.98px) {
     .descriptionContainer {
         width: 100%;
-        color: red;
         height: auto;
         text-align: center;
     }
