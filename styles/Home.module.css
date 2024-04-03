@@ -120,7 +120,14 @@
 @media (prefers-color-scheme: dark) {
   .card,
   .footer {
-    border-color: #222;
+    /* border-color: #222; */
+    background-color: var(--black-color);
+    color: var(--white-color);
+  }
+  .container {
+    /* padding: 0 2rem; */
+    background-color: var(--black-color);
+    color: var(--white-color);
   }
   .code {
     background: #111;

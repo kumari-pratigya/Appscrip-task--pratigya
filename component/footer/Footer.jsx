@@ -4,7 +4,7 @@ import Images from "../../public/Images/Images";
 import Image from "next/image";
 const Footer = () => {
   return (
-    <div className={`py-3 mt-5  container-fluid py-sm-5 ${style.footerContainer}`}>
+    <div className={`py-3 mt-5 footer container-fluid py-sm-5 ${style.footerContainer}`}>
       <div className="row d-none d-md-flex mx-3 mx-sm-5">
         <div className="col-md-8 col-12">
           <p className={style.firstToKnow}>Be the first to know</p>
