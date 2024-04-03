@@ -33,6 +33,7 @@
 .stock{
     position: absolute;
     top: 50%;
+    background-color: white;
     z-index: 1;
     left: 0%;
     /* transform: translate(-50px,-50px); */
