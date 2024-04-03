@@ -1,7 +1,7 @@
 .footerContainer{
     height: 750px ;
-    background-color: black;
-    color: white;
+    background-color: var(--black-color);
+    color: var(--white-color);
     width: 100%;
     font-family:var(--roboto);
 }
@@ -26,8 +26,8 @@
  Height: 48px;
  width: 184px;
 border-radius: 5px;
-Border:1px solid white;
-color: white;
+Border:1px solid var(--white-color);
+color: var(--white-color);
 background-color: transparent;
 margin-left: 10px;
 Opacity:30%
@@ -86,7 +86,7 @@ Opacity:30%
     width: 100%;
 }
 .footerContainer .column{
-    border-bottom:2px solid white;
+    border-bottom:2px solid var(--white-color);
     padding-bottom: 20px
 }
 }

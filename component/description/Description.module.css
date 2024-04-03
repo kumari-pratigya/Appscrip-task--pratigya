@@ -1,7 +1,7 @@
 .descriptionContainer {
     width: 721px;
     height: 168px;
-    color: black;
+    color: var(--black-color);
     font-family: var(--roboto);
 }
 
