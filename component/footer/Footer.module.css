@@ -1,7 +1,7 @@
 .footerContainer{
     height: 750px ;
-    background-color: var(--black-color);
-    color: var(--white-color);
+    background-color:black;
+    color:white;
     width: 100%;
     font-family:var(--roboto);
 }
@@ -89,4 +89,13 @@ Opacity:30%
     border-bottom:2px solid var(--white-color);
     padding-bottom: 20px
 }
+}
+@media (prefers-color-scheme: dark) {
+    .footerContainer{
+    height: 750px ;
+    background-color: black;
+    color:white;
+    width: 100%;
+    font-family:var(--roboto);
+    }
 }

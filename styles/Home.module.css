@@ -121,13 +121,13 @@
   .card,
   .footer {
     /* border-color: #222; */
-    background-color: var(--black-color);
-    color: var(--white-color);
+    background-color: black;
+    color: white;
   }
   .container {
     /* padding: 0 2rem; */
-    background-color: var(--black-color);
-    color: var(--white-color);
+    background-color: black;
+    color:white;
   }
   .code {
     background: #111;

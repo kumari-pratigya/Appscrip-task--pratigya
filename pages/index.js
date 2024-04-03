@@ -6,7 +6,6 @@ import ProductBar from "../component/productBar/ProductBar";
 import ProductContainer from "../component/productContainer/ProductContainer";
 import Head from 'next/head'
 
-
 export default function Home() {
   
   return (

@@ -1,3 +1,4 @@
+@import '../public/style/style.module.css';
 html,
 body {
   padding: 0;
@@ -72,7 +73,7 @@ a {
     color-scheme: dark;
   }
   body {
-    color: var(--white-color);
-    background: var(--black-color);
+    color:white;
+    background: black;
   }
 }
