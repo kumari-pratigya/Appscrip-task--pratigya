@@ -22,7 +22,7 @@
 @media (max-width: 725.98px) {
     .descriptionContainer {
         width: 100%;
-        color: var(--black-color);
+        color: red;
         height: auto;
         text-align: center;
     }
