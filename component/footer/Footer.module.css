@@ -1,7 +1,7 @@
 .footerContainer{
     height: 750px ;
-    background-color:black;
-    color:white;
+    background-color:var(--black-color);
+    color:var(--white-color);
     width: 100%;
     font-family:var(--roboto);
 }
@@ -93,8 +93,8 @@ Opacity:30%
 @media (prefers-color-scheme: dark) {
     .footerContainer{
     height: 750px ;
-    background-color: black;
-    color:white;
+    background-color: var(--black-color);
+    color:var(--white-color);
     width: 100%;
     font-family:var(--roboto);
     }

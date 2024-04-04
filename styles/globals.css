@@ -1,4 +1,14 @@
-@import '../public/style/style.module.css';
+/* @import '../public/style/style.module.css'; */
+:root{
+  --main-theme-color:rgb(0,159,127);
+ --inter:'Inter';
+ --roboto:'Roboto';
+ --black-color:#252020;
+ --white-color:#ffffff;
+ --border-color:#E5E5E5;
+ --grey-color:#888792;
+
+}
 html,
 body {
   padding: 0;

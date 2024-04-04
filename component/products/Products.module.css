@@ -1,8 +1,9 @@
+@import '../../public/style/style.module.css';
 .productName{
     font-family: var(--roboto);
     font-weight: 700;
     font-size: 18px;
-    color:black;
+    color:var(--black-color);
     line-height: 21.6px;
     
 }
@@ -13,7 +14,7 @@
 .subHeading{
     font-weight: 400;
     font-size: 14px;
-    color: var(--grey-color);
+    color:var( --grey-color);
     line-height: 16.8px;
 }
 .productImage{
@@ -33,7 +34,7 @@
 .stock{
     position: absolute;
     top: 50%;
-    background-color: white;
+    background-color: var(--white-color);
     z-index: 1;
     left: 0%;
     /* transform: translate(-50px,-50px); */
