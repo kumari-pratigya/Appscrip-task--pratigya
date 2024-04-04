@@ -4,9 +4,9 @@ import style from './Product.module.css'
 import Images from '../../public/Images/Images'
 const ProductBar = () => {
   return (
-    <>
-      <div className={`row px-0 mx-5 ${style.ProductBarContainer}`}>
-    <div className='col-md-3 col-6 px-0'>
+    <div className='bg-white'>
+      <div className={`row px-0 mx-sm-5 mx-2 ${style.ProductBarContainer}`}>
+    <div className='col-md-3 col-3 px-0'>
     <div className='row'>
         <div className={`col-md-6  col-6 ${style.totalItem}`}>
         3435Item 
@@ -15,11 +15,11 @@ const ProductBar = () => {
     </div>
     </div>
    
- <div className={`col-md-9 col-6  text-end ${style.recommenedItem}`}>
+ <div className={`col-md-9 col-9  text-end ${style.recommenedItem}`}>
  RECOMMENDED<Image  alt="bottomArrow" src={Images.BOTTOMARROW}></Image>
 </div>
       </div>
-    </>
+    </div>
   )
 }
 

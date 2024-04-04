@@ -1,7 +1,6 @@
 .ProductBarContainer{
     border-top: 1px solid var(--border-color) ;
     border-bottom: 1px solid var(--border-color);
-    background-color: var(--border-color);
     padding: 5px 0px;
 }
 .ProductBarContainer .totalItem{
